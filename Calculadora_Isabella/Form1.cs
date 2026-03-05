@@ -16,5 +16,43 @@ namespace Calculadora_Isabella
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int num1 = int.Parse(textBox1.Text);
+            int num2 = int.Parse(textBox2.Text);
+            int sub = num1 - num2;
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int num1 = int.Parse(textBox1.Text);
+            int num2 = int.Parse(textBox2.Text);   
+            
+            int soma = num1 + num2;
+
+            label6 = soma.
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int num1 = int.Parse(textBox1.Text);
+            int num2 = int.Parse(textBox2.Text);
+
+            int mult = num1 * num2;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int num1 = int.Parse(textBox1.Text);
+            int num2 = int.Parse(textBox2.Text);
+
+            int div = num1 / num2;
+        }
     }
 }
